@@ -1,2 +1,0 @@
-# kkkoora
-Football information website
