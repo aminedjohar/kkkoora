@@ -14,7 +14,7 @@ const Sidebar = () => {
     return ( 
         <section className="px-2 md:px-4 py-2 bg-[rgb(40,45,58)] rounded-md">
             <div>
-                <h1 className="font-bold text-xl mb-4 text-teal-400"> </h1>
+                <h1 className="font-bold text-xl mb-4 text-teal-400">Leagues</h1>
                 <ul className="space-y-2">
                     {
                         Leagues.map(league => (
