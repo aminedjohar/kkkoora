@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +22,7 @@ export default function RootLayout({
         <main className='px-2 md:px-16 md:py-2 text-textPrimary'>
           <Navbar />
           <section className='flex space-x-4'>
-            {/* sidebar */}
+            <Sidebar/>
             {children}
             {/* news */}
           </section>

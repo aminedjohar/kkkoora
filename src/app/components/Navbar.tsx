@@ -15,7 +15,7 @@ const Navbar = () => {
                 </div>
                 <span className="text-2xl font-bold none md:block">kkkoora </span>
             </Link>
-            
+            <p className="text-xs md:text-sm">2023</p>
         </div>
     );
 }
